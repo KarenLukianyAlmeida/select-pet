@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color:#c9d1d9;
+}
+
+#app {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 2.5em;
+}
+
+button {
+  height: 30px;
+  width: 150px;
+  margin-bottom: 20px;
+  background-color: rgb(49, 48, 47);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#card {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  width: 440px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f6fc;
+}
+
+#image {
+  width: 440px;
+  object-fit: cover;
+}
